@@ -1,0 +1,7 @@
+1280 720
+1920 1080
+2560 1440
+
+This program accepts three resolutions.
+You may edit these resolutions. The resolutions must be formatted with a space between the X and Y numbers followed by a space.
+if you mess up, just delete the file and the program will generate a new one.

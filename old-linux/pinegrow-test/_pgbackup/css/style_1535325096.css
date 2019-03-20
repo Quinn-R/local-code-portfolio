@@ -1,0 +1,15 @@
+#pageTitle {
+    font-size: 10vw;
+    font-family: ABeeZee;
+    text-align: left;
+    width: 100vw;
+    float: none;
+    padding: 0;
+    margin: 0;
+}
+
+#pageBanner {
+    width: 80vw;
+    height: 100px;
+    float: right;
+}

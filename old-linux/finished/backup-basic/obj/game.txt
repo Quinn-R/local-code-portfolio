@@ -1,0 +1,3 @@
+/home/quinnreilly/dev/backup-basic/obj/
+/home/quinnreilly/Documents/untitled.mp4.txt
+/home/quinnreilly/Documents/japanese

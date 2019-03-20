@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1497459274 source:c:\users\quinnreilly\documents\[!] personaldocs\code\test\headertest\main.cpp
+	"isNumber.h"
+	"randomNumber.h"
+
+1497458764 c:\users\quinnreilly\documents\[!] personaldocs\code\test\headertest\isnumber.h
+	"common.h"
+
+1497458053 c:\users\quinnreilly\documents\[!] personaldocs\code\test\headertest\common.h
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1497459096 c:\users\quinnreilly\documents\[!] personaldocs\code\test\headertest\randomnumber.h
+	"common.h"
+

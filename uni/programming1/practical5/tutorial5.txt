@@ -1,0 +1,21 @@
+// architect's fee
+
+Cost = INPUT("Enter Building cost")
+Fee
+
+IF Cost >= 50000 THEN
+    Fee = Fee + (50000 * 0.08)
+    Cost = Cost - 50000
+    
+    IF Cost > 50000 AND Cost <= 80000 THEN
+        Fee = Fee + (Cost * 0.03)
+    ELSE IF COST > 80000 THEN
+        Fee = Fee + (Cost * 0.020)
+        
+    PRINT("The architect's fee is £" + fee)
+        
+ELSE
+    PRINT("Building cost does not exceed £50000")
+    
+
+// architect's fee java rendition can be found in this practicals src folder

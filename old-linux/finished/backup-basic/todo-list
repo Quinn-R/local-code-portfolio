@@ -1,0 +1,13 @@
+# Backup Basic To Do List
+
+Get Program to read file
+- [ ] loop
+  - [ ] save all dir to vect
+
+Get program to move files
+- [ ] make a command that will
+  - [ ] move to target directory - cd
+  - [ ] copy and paste - cp
+  - [ ] make new folder in first dir - mkdir
+  - [ ] if there is a / at the end, then copy folder
+  

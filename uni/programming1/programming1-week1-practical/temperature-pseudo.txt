@@ -1,0 +1,13 @@
+highTemp
+lowTemp
+answer
+
+print("Enter the Highest temperature of the day: ")
+highTemp = user input
+
+print("Enter the Lowest temperature of the day: ")
+lowTemp = user input
+
+answer = (highTemp + lowTemp) / 2
+
+print("the average temperatures is: " + answer)

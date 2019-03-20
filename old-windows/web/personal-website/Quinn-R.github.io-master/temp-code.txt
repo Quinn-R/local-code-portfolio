@@ -1,0 +1,190 @@
+# temp code file
+
+## html divs
+
+<div id="wrapper">
+            
+    <div id="banner">
+        
+        <div class="buffer"></div>
+        
+        <div class="button" id="home">
+            
+        </div>
+        
+        <div class="buffer"></div>
+        
+        <div class="button" id="code">
+            
+        </div>
+        
+        <div class="buffer"></div>
+        
+        <div class="button" id="news">
+            
+        </div>
+        
+        <div class="buffer"></div>
+        
+        <div class="button" id="contact">
+            
+        </div>
+        
+        <div class="buffer"></div>
+        
+    </div>
+    
+    <div id="main">
+        
+        
+        
+    </div>
+    
+    <div id="footer">
+        
+        
+        
+    </div>
+    
+</div>
+
+## css divs
+
+#wrapper
+{
+    min-height: 500px;
+    min-width: 500px;
+    max-width: 900px;
+    height: auto;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: tomato;
+    align-content: center;
+}
+
+#banner
+{
+    min-height: 50px;
+    min-width: 500px;
+    max-height: 75px;
+    max-width: 900px;
+    height: auto;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: green;
+    align-content: center;
+}
+
+#main
+{
+    min-height: 500px;
+    min-width: 500px;
+    max-width: 900px;
+    height: auto;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: blue;
+    align-content: center;
+}
+
+#footer
+{
+    min-height: 10px;
+    min-width: 500px;
+    max-width: 900px;
+    height: auto;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: yellow;
+    align-content: center;
+}
+
+.button
+{
+    min-height: 50px;
+    min-width: 12%;
+    max-height: 75px;
+    max-width: 100px;
+    height: auto;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+    align-content: center;
+    display:inline-block;
+}
+
+#home
+{
+    background-color: pink;
+    //float: left;
+}
+
+#code
+{
+    background-color: purple;
+    //float: left;
+}
+
+#news
+{
+    background-color: brown;
+    //float: left;
+}
+
+#contact
+{
+    background-color: black;
+    //float: left;
+}
+
+.buffer
+{
+    min-height: 50px;
+    min-width: 9%;
+    max-height: 75px;
+    max-width: 100px;
+    height: auto;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+    align-content: center;
+    display:inline-block;
+}
+
+## banner buttons
+
+<div id="btnHome" class="button">
+    
+    <div id="btnHome" class="button">
+        
+    <div/>
+    
+<div/>
+
+<div id="btnCode" class="button">
+    
+    <div id="btnHome" class="button">
+        
+    <div/>
+    
+<div/>
+
+<div id="btnStories" class="button">
+    
+    <div id="btnHome" class="button">
+        
+    <div/>
+    
+<div/>
+
+<div id="btnletsTalk" class="button">
+    
+    <div id="btnHome" class="button">
+        
+    <div/>
+    
+<div/>

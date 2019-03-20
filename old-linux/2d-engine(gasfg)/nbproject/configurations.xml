@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>inc/Engine.hpp</itemPath>
+      <itemPath>inc/Object.hpp</itemPath>
+      <itemPath>inc/common.hpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>src/Engine.cpp</itemPath>
+      <itemPath>src/Object.cpp</itemPath>
+      <itemPath>src/draw.cpp</itemPath>
+      <itemPath>src/input.cpp</itemPath>
+      <itemPath>src/main.cpp</itemPath>
+      <itemPath>src/update.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>src</Elem>
+    <Elem>inc</Elem>
+    <Elem>lib</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>8</standard>
+          <incDir>
+            <pElem>lib/SFML-2.5.1/include</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <linkerAddLib>
+            <pElem>lib/SFML-2.5.1/lib</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerLibLibItem>sfml-system</linkerLibLibItem>
+            <linkerLibLibItem>sfml-graphics</linkerLibLibItem>
+            <linkerLibLibItem>sfml-window</linkerLibLibItem>
+            <linkerLibLibItem>sfml-audio</linkerLibLibItem>
+            <linkerLibLibItem>sfml-network</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="inc/Engine.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/Object.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/common.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Engine.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Object.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/draw.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/input.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/update.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <standard>8</standard>
+          <incDir>
+            <pElem>lib/SFML-2.5.1/include</pElem>
+          </incDir>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <linkerAddLib>
+            <pElem>lib/SFML-2.5.1/lib</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerLibLibItem>sfml-system</linkerLibLibItem>
+            <linkerLibLibItem>sfml-graphics</linkerLibLibItem>
+            <linkerLibLibItem>sfml-window</linkerLibLibItem>
+            <linkerLibLibItem>sfml-audio</linkerLibLibItem>
+            <linkerLibLibItem>sfml-network</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="inc/Engine.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/Object.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/common.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Engine.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Object.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/draw.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/input.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/update.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

@@ -1,0 +1,117 @@
+#include "../inc/mainMenu.h"
+
+void mainMenu::menuMethod ()
+{
+    sf::RenderWindow mainMenuWindow(sf::VideoMode(500, 500), "SFML works!");
+    
+    sf::RectangleShape rectangle1(sf::Vector2f(100, 50));
+    sf::RectangleShape rectangle2(sf::Vector2f(100, 50));
+    sf::RectangleShape rectangle3(sf::Vector2f(100, 50));
+    
+    /*
+    rectangle1.setFillColor(sf::Color::Green);
+    rectangle2.setFillColor(sf::Color::Green);
+    rectangle3.setFillColor(sf::Color::Green);
+    */
+    
+    rectangle1.setPosition(0, 0);
+    rectangle2.setPosition(0, 60);
+    rectangle3.setPosition(0, 120);
+    
+    sf::Vector2f rect1 = rectangle1.getPosition();
+    sf::Vector2f rect2 = rectangle2.getPosition();
+    sf::Vector2f rect3 = rectangle3.getPosition();
+    sf::Vector2f newMousePos;
+    
+    sf::Vector2i localPosition;
+    
+    int currentRect = 1;
+    
+    float convertXF = 0;
+    float convertYF = 0;
+    
+    while (mainMenuWindow.isOpen())
+    {
+        sf::Event event;
+        
+        while (mainMenuWindow.pollEvent(event))
+        {
+            if (event.type == sf::Event::Closed)
+                mainMenuWindow.close();
+                
+            /*if (sf::Keyboard::isKeyPressed(sf::Keyboard::Down))
+            {
+                if(currentRect == 3)
+                {
+                    currentRect = 1;
+                }
+                else
+                {
+                    currentRect ++;
+                }
+            }
+            
+            if (sf::Keyboard::isKeyPressed(sf::Keyboard::Up))
+            {
+                if(currentRect == 1)
+                {
+                    currentRect = 3;
+                }
+                else
+                {
+                    currentRect --;
+                }
+            }*/
+            
+            if ((newMousePos.x > rect1.x && newMousePos.x < (rect1.x + 100)) && (newMousePos.y > rect1.y && newMousePos.y < (rect1.y + 50)))
+            {
+                currentRect = 1;
+            }
+            
+            if ((newMousePos.x > rect2.x && newMousePos.x < (rect2.x + 100)) && (newMousePos.y > rect2.y && newMousePos.y < (rect2.y + 50)))
+            {
+                currentRect = 2;
+            }
+            
+            if ((newMousePos.x > rect3.x && newMousePos.x < (rect3.x + 100)) && (newMousePos.y > rect3.y && newMousePos.y < (rect3.y + 50)))
+            {
+                currentRect = 3;
+            }
+        }
+        
+        localPosition = sf::Mouse::getPosition(mainMenuWindow);
+        
+        convertXF = localPosition.x;
+        convertYF = localPosition.y;
+        
+        newMousePos.x = convertXF;
+        newMousePos.y = convertYF;
+        
+        std::cout << std::endl << currentRect << std::endl;
+        
+        if (currentRect == 1)
+        {
+            rectangle1.setFillColor(sf::Color::Red);
+            rectangle2.setFillColor(sf::Color::Green);
+            rectangle3.setFillColor(sf::Color::Green);
+        }
+        else if (currentRect == 2)
+        {
+            rectangle1.setFillColor(sf::Color::Green);
+            rectangle2.setFillColor(sf::Color::Red);
+            rectangle3.setFillColor(sf::Color::Green);
+        }
+        else if (currentRect == 3)
+        {
+            rectangle1.setFillColor(sf::Color::Green);
+            rectangle2.setFillColor(sf::Color::Green);
+            rectangle3.setFillColor(sf::Color::Red);
+        }
+        
+        mainMenuWindow.clear();
+        mainMenuWindow.draw(rectangle1);
+        mainMenuWindow.draw(rectangle2);
+        mainMenuWindow.draw(rectangle3);
+        mainMenuWindow.display();
+    }
+}

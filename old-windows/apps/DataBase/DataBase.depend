@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1501370080 source:c:\users\quinnreilly\documents\[!] personaldocs\code\apps\database\main.cpp
+	"common.h"
+	"util.h"
+
+1498920563 c:\users\quinnreilly\documents\[!] personaldocs\code\apps\database\readwritefile.h
+	"common.h"
+	"util.h"
+
+1501359385 c:\users\quinnreilly\documents\[!] personaldocs\code\apps\database\common.h
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<fstream>
+	<array>
+	<string>
+	<vector>
+
+1500813476 c:\users\quinnreilly\documents\[!] personaldocs\code\apps\database\util.h
+	"common.h"
+
+1501373682 source:c:\users\quinn\documents\!personaldocs\code\apps\database\main.cpp
+	"common.h"
+	"util.h"
+
+1501362986 c:\users\quinn\documents\!personaldocs\code\apps\database\common.h
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<fstream>
+	<array>
+	<string>
+	<vector>
+
+1500817078 c:\users\quinn\documents\!personaldocs\code\apps\database\util.h
+	"common.h"
+

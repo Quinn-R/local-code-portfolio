@@ -1,0 +1,22 @@
+//question 1
+
+Years
+Months
+Age
+
+WHILE Years DOESNOT EQUAL 0
+    Years = INPUT("Enter Age in Years: ")
+    Months = INPUT("Enter Months Since Last Birthday: ")
+    
+    Age = (Months + (Years * 12))
+    
+    IF Age ISGREATERTHAN 500
+        PRINT("Age in Months = " + Age + " ***")
+    ELSE
+        PRINT("Age in Months = " + Age)
+    
+END WHILE
+
+//question 2
+
+Can be found in src folder of this practical

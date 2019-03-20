@@ -1,0 +1,39 @@
+/home/quinnreilly/dev/backup-basic/obj/backup/
+/media/quinnreilly/18AE9950AE9926F2/Users/quinn/Documents/Euro Truck Simulator 2/profiles
+/media/quinnreilly/18AE9950AE9926F2/Users/quinn/Documents/GTA San Andreas User Files
+/media/quinnreilly/18AE9950AE9926F2/Users/quinn/Documents/My Games
+/media/quinnreilly/18AE9950AE9926F2/Users/quinn/Documents/The Witcher
+/media/quinnreilly/18AE9950AE9926F2/Users/quinn/Documents/Square Enix
+/media/quinnreilly/18AE9950AE9926F2/Users/quinn/Documents/SavedGames
+/media/quinnreilly/18AE9950AE9926F2/Users/quinn/Documents/Rockstar Games
+/media/quinnreilly/18AE9950AE9926F2/Users/quinn/Documents/Project CARS
+/media/quinnreilly/games/games/steamapps/common/Gothic II/Saves
+/media/quinnreilly/games/games/steamapps/common/Kerbal Space Program/saves
+/media/quinnreilly/games/games/steamapps/common/Morrowind/Saves
+/media/quinnreilly/games/games/steamapps/common/3030 Deathwar Redux/save
+/media/quinnreilly/games/games/steamapps/common/Gothic/Saves
+/media/quinnreilly/games/games/steamapps/common/Software Inc/Saves
+/media/quinnreilly/games/games/steamapps/common/Portal/portal/save
+/media/quinnreilly/games/games/steamapps/common/Shadowgrounds Survivor/Editor/Save
+/media/quinnreilly/games/games/steamapps/common/Portal 2/portal2/SAVE
+/media/quinnreilly/games/games/steamapps/common/Portal 2/update/save
+/media/quinnreilly/games/games/steamapps/common/The Stanley Parable/thestanleyparable/save
+/media/quinnreilly/games/games/steamapps/common/GarrysMod/garrysmod/saves
+/media/quinnreilly/games/games/steamapps/common/The Vanishing of Ethan Carter Redux/Engine/Saved
+/media/quinnreilly/games/games/steamapps/common/The Vanishing of Ethan Carter Redux/EthanCarter/Saved
+/media/quinnreilly/games/games/steamapps/common/Gothic/Saves/savegame1
+/media/quinnreilly/games/games/steamapps/common/Gothic/Saves/savegame2
+/media/quinnreilly/games/games/steamapps/common/Shadowgrounds Survivor/Profiles/Default/Save
+/media/quinnreilly/games/games/steamapps/common/Shadowgrounds/Profiles/Default/Save
+/media/quinnreilly/games/games/steamapps/common/Shadowgrounds/Profiles/Joypad1/Save
+/media/quinnreilly/games/games/steamapps/common/Shadowgrounds/Profiles/Joypad2/Save
+/media/quinnreilly/games/games/steamapps/common/Shadowgrounds/Profiles/Joypad3/Save
+/media/quinnreilly/games/games/steamapps/common/Trine/profiles/default/save
+/media/quinnreilly/games/games/steamapps/common/Interstellaria/Assets/Resources/SaveData
+/media/quinnreilly/games/games/steamapps/common/Shadowgrounds Survivor/Mods/mymod/Editor/Save
+/media/quinnreilly/games/games/steamapps/common/FarCry/Profiles/player/default/savegames
+/media/quinnreilly/games/games/steamapps/common/GarrysMod/garrysmod/data/plogs/saves
+/media/quinnreilly/games/games/steamapps/common/the witcher 2/CookedPC/globals/gui/savescreens
+/media/quinnreilly/games/games/steamapps/common/GarrysMod/garrysmod/lua/includes/gmsave
+/media/quinnreilly/games/games/steamapps/common/Shadowgrounds Survivor/Mods/mymod/Profiles/Default/Save
+/media/quinnreilly/games/games/steamapps/common/Shadowgrounds Survivor/Mods/mymod/Profiles/ModDeveloper/Save

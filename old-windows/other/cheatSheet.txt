@@ -1,0 +1,41 @@
+CheatSheet Contents:
+
+ #include <lib>
+ using namespace std;
+ 
+ void name ();
+ 
+ string Name;
+ int name;
+ bool name = condition;
+ 
+ string name [number] = {"", ""};
+ Int name [number] = {, };
+ 
+ class Bin {};
+ 
+ void service() {}
+ 
+ system("command");
+ Sleep(milliseconds);
+ cout << "message" << endl;
+ cin >> variable;
+ 
+ if (condition) {
+	
+ }else if (condition) {
+	
+ }else{
+	
+ }
+ 
+ int main () {}
+ 
+ void pause () {
+	
+	cout << endl << " Hit [ENTER] To Continue: ";
+	cin.ignore();
+	cin.get();
+	
+	system ("cls");
+ }

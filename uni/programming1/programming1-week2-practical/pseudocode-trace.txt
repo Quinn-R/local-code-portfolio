@@ -1,0 +1,14 @@
+number = 12 
+total = 0 
+ 
+IF number is odd 
+  number = number - 10 // 2
+ELSE 
+  number = number + 1 
+END 
+
+number = number + total // 2
+total = total + 1 // 1
+
+PRINT number // 2
+PRINT total // 1

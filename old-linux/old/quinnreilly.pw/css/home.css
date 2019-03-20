@@ -1,0 +1,38 @@
+body 
+{
+    background-color: lightblue;
+}
+
+h1 
+{
+    color: white;
+    text-align: center;
+}
+
+p 
+{
+    font-family: verdana;
+    font-size: 20px;
+}
+
+#circle1
+{
+    background-color: black;
+    
+    width: 500px;
+    height: 500px;
+    
+    margin: auto;
+    
+    border-radius: 50%;
+}
+
+#line1
+{
+    background-color: white;
+    
+    width: 5px;
+    height: 250px;
+    
+    margin: auto;
+}

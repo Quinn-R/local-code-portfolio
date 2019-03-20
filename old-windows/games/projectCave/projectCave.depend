@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1495292765 source:c:\users\quinnreilly\documents\[!] personaldocs\code\games\projectcave\main.cpp
+	"mechFile.h"
+
+1495046431 c:\users\quinnreilly\documents\[!] personaldocs\code\games\projectcave\common.h
+	"classes.h"
+
+1495290157 c:\users\quinnreilly\documents\[!] personaldocs\code\games\projectcave\classes.h
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+	<windows.h>
+
+1495296480 c:\users\quinnreilly\documents\[!] personaldocs\code\games\projectcave\mechfile.h
+	"classes.h"
+

@@ -1,0 +1,35 @@
+//version 1
+
+Balance = INPUT("Enter the bank balance: ")
+Widthdrawls = INPUT("Enter the total withdrawls: ")
+Deposits = INPUT("Enter the total deposits: ")
+
+BalanceBefore = Balance + Deposits - Withdrawls
+
+IF Deposits is greater than 1000
+    Deposits = Deposits - (Deposits * .05)
+
+BalanceAfter = Balance + Deposits - Withdrawls
+
+PRINT("The balance before TAX: " + BalanceBefore + "The balance after TAX: " + BalanceAfter)
+
+//version 2
+
+Balance = INPUT("Enter the bank balance: ")
+Widthdrawls = INPUT("Enter the total withdrawls: ")
+Deposits = INPUT("Enter the total deposits: ")
+
+BalanceBefore = Balance + Deposits - Withdrawls
+
+IF Deposits is greater than 999
+    Deposits = Deposits - (Deposits * .005)
+ELSE IF Deposits is greater than 4999
+    Deposits = Deposits - (Deposits * .010)
+
+BalanceAfter = Balance + Deposits - Withdrawls
+
+PRINT("The balance before TAX: " + BalanceBefore + "The balance after TAX: " + BalanceAfter)
+
+//best variable type
+
+I think the best variable type for all the variables in this algorithm is float. I believe this is the best type because it supports the decimals required to work with money, but is not as space consuming as double.

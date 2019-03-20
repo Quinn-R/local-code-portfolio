@@ -1,0 +1,7 @@
+Hi.
+
+The code in this folder was from a coding sprint. There was code that was provided which had only 2 space tabs rather than 4, so it gets a bit messy.
+
+The CodeSprintLib file was something I wrote just before the beginning of the assessment. It seems to come in handy somewhat.
+
+Thanks for reading!

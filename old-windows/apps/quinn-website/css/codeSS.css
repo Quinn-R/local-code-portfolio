@@ -1,0 +1,199 @@
+#wrapper 
+{
+	border-top-right-radius: 25px;
+	border-top-left-radius: 25px;
+	
+	background-color: #f7e7b4;
+	
+	height: auto;
+	width: auto;
+	min-width: 780px;
+	max-width: 1280px;
+	
+	margin: auto;
+	
+	/*opacity: 0.5;*/
+}
+
+#banner
+{	
+	border-top-right-radius: 25px;
+	border-top-left-radius: 25px;
+	
+	background-color: #68c4af;
+	
+	height: 100px;
+	width: auto;
+	min-width: 780px;
+	max-width: 1280px;
+	
+	text-align: center;
+	
+	margin: auto;
+	/*opacity: 0.5;*/
+}
+
+#buttonPanel
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-width: 780px;
+	max-width: 1280px;
+	
+	background-color: #f7e7b4;
+	
+	height: 65px;
+	width: auto;
+	min-width: 780px;
+	
+	margin: auto;
+	/*opacity: 0.5;*/
+}
+
+#divider1
+{
+	width: 20px;
+    height: auto;
+	/*background-color: #68c4af;*/
+    /*display:inline-block;*/
+}
+
+#divider2
+{
+    width: auto;
+    height: 20px;
+	/*background-color: #68c4af;*/
+    /*display:inline-block;*/
+}
+
+#console
+{
+	background-image: url("../images/consoleShort.gif");
+	
+	/*display: flex;*/
+	
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	
+	background-color: #000000;
+	
+	height: 347px;
+	width: 715px;
+	
+	margin: auto;
+	/*opacity: 0.5;*/
+}
+
+#consoleText1
+{
+	font: consolas;
+	font-size: 20px;
+	color: #c0c0c0;
+	
+	float: left;
+	
+	padding: 20px;
+}
+
+#consoleText2
+{
+	font: consolas;
+	color: #c0c0c0;
+	
+	float: left;
+	
+	padding: 20px;
+	padding-bottom: 0px;
+}
+
+#footer
+{
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	
+	align-items: center;
+	justify-content: center;
+	
+	background-color: #68c4af;
+	
+	height: 35px;
+	width: auto;
+	min-width: 780px;
+	max-width: 1280px;
+	
+	margin: auto;
+	/*opacity: 0.5;*/
+}
+
+#buttonArea
+{
+	
+	height: auto;
+	width: auto;
+	min-width: 780px;
+	max-width: 1280px;
+	
+	text-align: center;
+	
+}
+
+#codeArea
+{
+	display: none;
+	height: auto;
+	width: auto;
+	min-width: 780px;
+	max-width: 1280px;
+	
+	text-align: center;
+	
+}
+
+#button1
+{	
+	background-color: #68c4af;
+	color: #ffffff;
+	border: none;
+	display: inline-block;
+	
+	font: consolas;
+	
+	cursor: pointer;
+	
+	height: 50px;
+	width: 100px;
+}
+#button1:hover #codeArea
+{
+	
+}
+
+
+button
+{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	
+	border-top-right-radius: 25px;
+	border-top-left-radius: 25px;
+	
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	
+	background-color: #68c4af;
+	color: #ffffff;
+	border: none;
+	display: inline-block;
+	
+	font: consolas;
+	
+	cursor: pointer;
+	
+	height: 50px;
+	width: 100px;
+}
+
+button:hover
+{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
